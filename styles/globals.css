@@ -1,0 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
