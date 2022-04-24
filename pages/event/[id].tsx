@@ -90,7 +90,7 @@ export default function EventById(props: Props) {
     clipboard.copy(location.href);
     showNotification({
       title: "Nice",
-      message: "Event has copied to clipboard successfully!",
+      message: "Event has been copied to clipboard successfully!",
     });
   }
 
